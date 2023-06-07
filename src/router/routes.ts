@@ -5,6 +5,17 @@ const routes: RouteRecordRaw[] = [
     path: '/',
     component: () => import('pages/HomePage.vue'),
   },
+  {
+    path: '/user',
+    component: () => import('layouts/UserLayout.vue'),
+    children: [
+      {
+        path: 'post',
+        name: 'post',
+        component: () => import('pages/Posts.vue'),
+      }
+    ]
+  },
 
   // Always leave this as last one,
   // but you can also remove it

@@ -5,7 +5,7 @@
 
             <template #nombre>
                 ARIEL RAMIREZ LOPEZ
-            </template>
+            </template>1
 
             <template v-slot:aux1>SEHALINE MENDOZA VILLATORO</template>
 
@@ -17,9 +17,9 @@
 
 <script setup lang="ts">
 
-import NavbarComponent from "../components/NavbarComponent.vue";
-import HeaderComponent from "../components/HeaderComponent.vue";
 import FooterComponent from "../components/FooterComponent.vue";
+import HeaderComponent from "../components/HeaderComponent.vue";
+import NavbarComponent from "../components/NavbarComponent.vue";
 
 </script>
 
